@@ -4,7 +4,7 @@ import json
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDBG61t1v03utFkxNaixa_N2ZCVkVZZCLQ")
+genai.configure(api_key="ur_api_key")
 
 # Function to download the paper PDF from arXiv
 def download_arxiv_paper(arxiv_id):
